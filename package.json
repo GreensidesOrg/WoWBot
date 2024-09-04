@@ -1,0 +1,22 @@
+{
+  "name": "wowbot",
+  "version": "1.0.0",
+  "description": "Discord bot",
+  "main": "wowBot.js",
+  "scripts": {
+    "start": "node ./src/wowBot.js",
+    "dev": "nodemon ./src/wowBot.js",
+    "commands": "node ./src/deploy-commands.js"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LiamGreensides/WoWBot.git"
+  },
+  "author": "Liam Greensides",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LiamGreensides/WoWBot/issues"
+  },
+  "homepage": "https://github.com/LiamGreensides/WoWBot#readme"
+}
