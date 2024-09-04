@@ -1,0 +1,2 @@
+# WoWBot
+Discord bot
