@@ -7,7 +7,6 @@
     "start": "node ./src/wowBot.js",
     "dev": "nodemon ./src/wowBot.js",
     "commands": "node ./src/deploy-commands.js"
-
   },
   "repository": {
     "type": "git",
@@ -18,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/LiamGreensides/WoWBot/issues"
   },
-  "homepage": "https://github.com/LiamGreensides/WoWBot#readme"
+  "homepage": "https://github.com/LiamGreensides/WoWBot#readme",
+  "dependencies": {
+    "passport-bnet": "^2.0.0"
+  }
 }
