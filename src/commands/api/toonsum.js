@@ -37,9 +37,11 @@ module.exports = {
                             { name: toonSum.classAndSpec, value: `(${toonSum.gender} ${toonSum.race})`, inline: false},
                             { name: toonSum.guild, value: `(${toonSum.faction})`, inline: false},
                             { name: '\u200B', value: '\u200B' },
+                            { name: "Warcraft Logs", value: `[${interaction.options.getString('name')}'s Logs](https://www.warcraftlogs.com/character/us/${interaction.options.getString('server')}/${interaction.options.getString('name')})`, inline: false},
+                            { name: "Raider.io", value: `[${interaction.options.getString('name')}'s io](https://raider.io/characters/us/${interaction.options.getString('server')}/${interaction.options.getString('name')})`, inline: false}
                         ],
                         footer: { 
-                            text: `Page (1/3) Use ◀️▶️ to navigate pages`,
+                            text: `Page (1/2) Use ◀️▶️ to navigate pages`,
                         }
 
                     },
@@ -48,18 +50,7 @@ module.exports = {
                         description: `Gear Summary`,
                         fields: gearFields,
                         footer: { 
-                            text: `Page (2/3) Use ◀️▶️ to navigate pages`,
-                        }
-                    },
-                    {
-                        title: `${interaction.options.getString('name')} (${String(ilvl)})`,
-                        description: `Links`,
-                        fields: [
-                            { name: "Warcraft Logs", value: `[${interaction.options.getString('name')}'s Logs](https://www.warcraftlogs.com/character/us/${interaction.options.getString('server')}/${interaction.options.getString('name')})`, inline: false},
-                            { name: "Raider.io", value: `[${interaction.options.getString('name')}'s io](https://raider.io/characters/us/${interaction.options.getString('server')}/${interaction.options.getString('name')})`, inline: false}
-                        ],
-                        footer: { 
-                            text: `Page (3/3) Use ◀️▶️ to navigate pages`,
+                            text: `Page (2/2) Use ◀️▶️ to navigate pages`,
                         }
                     }
 
