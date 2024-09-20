@@ -19,6 +19,6 @@
   },
   "homepage": "https://github.com/LiamGreensides/WoWBot#readme",
   "dependencies": {
-    "passport-bnet": "^2.0.0"
+    "discord.js": "^14.16.2"
   }
 }
